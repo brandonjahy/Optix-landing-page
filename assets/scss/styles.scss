@@ -18,6 +18,11 @@
   flex-direction: row;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  background: #fff;
+  z-index: 2;
   .logo {
     margin-left: 20px;
   }
