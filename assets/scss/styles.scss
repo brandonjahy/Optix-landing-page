@@ -134,6 +134,7 @@
 
 .cards {
   width: 100%;
+  margin-bottom: 200px;
   .card-block {
     display: flex;
     justify-content: center;
@@ -218,6 +219,46 @@
           width: 90%;
         }
       }
+    }
+  }
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200px 0;
+  .text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 600;
+      text-align: center;
+      width: 70%;
+      margin-bottom: 20px;
+    } 
+    p {
+      width: 48%;
+      text-align: center;
+      font-weight: 300;
+      font-size: 22px;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+  .logo-block {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    img {
+      width: 120px;
+      
     }
   }
 }
