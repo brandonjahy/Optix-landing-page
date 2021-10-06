@@ -15,6 +15,530 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/styles.css">
+
+    <style>
+      *{box-sizing:border-box}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}.container{width:90%;height:100%;margin:0 auto}.navbar{width:100%;height:15vh;display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;font-family:'Poppins', sans-serif;font-weight:400;position:-webkit-sticky;position:sticky;top:0;background:#fff;z-index:2}.navbar .logo{margin-left:20px}.navbar .linkbar{margin-left:30px;font-size:16px;-ms-flex-positive:2;flex-grow:2}.navbar .linkbar a{margin-left:40px;text-decoration:none;color:black}.navbar .hamburger{background-color:transparent;border:0;color:#000;font-size:20px;cursor:pointer;display:none}.navbar .hamburger:focus{outline:none}.navbar .login{margin-right:40px}.navbar .login a{color:black;font-size:16px;text-decoration:none;margin-right:20px}.navbar .login button{height:42px;width:180px;color:white;background:#000;border-radius:50px;border:none;font-size:16px}.header{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;margin-bottom:250px}.header .text-block{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;margin-top:150px}.header .text-block h1{font-size:3.5rem;width:80%;text-align:center;font-family:'Koh Santepheap', cursive;font-weight:600;padding-bottom:20px}.header .text-block h1 span{position:relative;display:inline-block}.header .text-block h1 span:before{content:" ";position:absolute;left:15px;bottom:5px;height:6px;width:100%;background:#FFF555;z-index:-1}.header .text-block p{width:55%;text-align:center;font-family:'Poppins', sans-serif;font-size:19px;line-height:1.6;margin-bottom:40px}.header .text-block .btn-lay .started{height:45px;width:160px;background:#000;color:white;font-size:16px;border-radius:50px;border:none;margin-right:15px;transition:all .2s ease-in-out}.header .text-block .btn-lay .started:hover{background-color:yellow;color:black}.header .text-block .btn-lay .video{width:230px;height:45px;background:#fff;font-size:16px;border-radius:50px;border:1px solid #000;margin-left:15px;transition:all .2s ease-in-out}.header .text-block .btn-lay .video:hover{background-color:yellow;color:black}.cards{width:100%;margin-bottom:200px}.cards .card-block{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;font-family:'Poppins', sans-serif}.cards .card-block .card1{height:400px;width:28%;background:#f6f6f6;border-radius:5px;margin:0 20px}.cards .card-block .card1 .text-block{margin-left:30px;margin-top:40px}.cards .card-block .card1 .text-block i{font-size:3.5rem;margin-bottom:30px}.cards .card-block .card1 .text-block h1{font-size:32px;width:90%;font-weight:600;font-family:'Koh Santepheap', cursive;margin-bottom:20px}.cards .card-block .card1 .text-block p{font-size:18px;line-height:1.8;width:90%}.cards .card-block .card2{height:400px;width:28%;background:#f6f6f6;border-radius:5px;margin:0 20px}.cards .card-block .card2 .text-block{margin-left:30px;margin-top:40px}.cards .card-block .card2 .text-block i{font-size:3.5rem;margin-bottom:30px}.cards .card-block .card2 .text-block h1{font-size:32px;font-weight:600;font-family:'Koh Santepheap', cursive;margin-bottom:20px}.cards .card-block .card2 .text-block p{font-size:18px;line-height:1.8;width:90%}.cards .card-block .card3{height:400px;width:28%;background:#f6f6f6;border-radius:5px;margin:0 20px}.cards .card-block .card3 .text-block{margin-left:30px;margin-top:40px}.cards .card-block .card3 .text-block i{font-size:3.5rem;margin-bottom:30px}.cards .card-block .card3 .text-block h1{font-size:32px;font-weight:600;font-family:'Koh Santepheap', cursive;margin-bottom:20px}.cards .card-block .card3 .text-block p{font-size:18px;line-height:1.8;width:90%}.brands{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;margin:200px 0}.brands .text-block{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;margin-bottom:70px}.brands .text-block h1{font-size:3.5rem;font-weight:600;text-align:center;width:70%;margin-bottom:20px}.brands .text-block p{width:48%;text-align:center;font-weight:300;font-size:22px;font-family:'Poppins', sans-serif}.brands .logo-block{width:70%;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row}.brands .logo-block img{width:120px}.gif1{width:100%;height:100vh}.gif1 .left{float:left;width:50%}.gif1 .left video{height:500px;width:100%}.gif1 .right{width:50%;float:right}.gif1 .right .text-block{margin-left:60px}.gif1 .right .text-block h1{font-size:3rem;font-weight:600;width:90%;font-family:'Koh Santepheap', cursive;margin-bottom:40px;margin-top:20px}.gif1 .right .text-block h3{font-family:'Poppins', sans-serif;font-size:18px;font-weight:400;margin-bottom:30px}.gif1 .right .text-block p{font-family:'Poppins', sans-serif;font-size:16px;font-weight:300;margin-bottom:30px;line-height:1.4;letter-spacing:1.3px}.gif1 .right .text-block a{font-size:18px;color:black;font-weight:500;text-decoration:none;font-family:'Poppins', sans-serif}.gif2{width:100%;height:100vh}.gif2 .right{float:right;width:50%}.gif2 .right video{height:500px;width:100%}.gif2 .left{float:left;width:50%}.gif2 .left .text-block{margin-left:20px}.gif2 .left .text-block h1{font-size:3rem;font-weight:600;width:90%;font-family:'Koh Santepheap', cursive;margin-bottom:40px;margin-top:20px}.gif2 .left .text-block h3{font-family:'Poppins', sans-serif;font-size:18px;font-weight:400;margin-bottom:30px}.gif2 .left .text-block p{font-family:'Poppins', sans-serif;font-size:16px;font-weight:300;margin-bottom:30px;line-height:1.4;letter-spacing:1.3px}.gif2 .left .text-block a{font-size:18px;color:black;font-weight:500;text-decoration:none;font-family:'Poppins', sans-serif}.grey-zone{height:70vh;width:100%;background-color:#f3f3f3;border-radius:10px;margin-bottom:200px}.grey-zone .left{width:50%;float:left}.grey-zone .left h1{font-size:3rem;font-weight:600;width:90%;font-family:'Koh Santepheap', cursive;margin-bottom:40px;margin-top:150px;margin-left:100px}.grey-zone .left p{font-family:'Poppins', sans-serif;font-size:16px;font-weight:300;margin-left:100px;margin-bottom:30px;line-height:1.4;letter-spacing:1.3px}.grey-zone .left a{font-size:18px;color:black;font-weight:500;text-decoration:none;font-family:'Poppins', sans-serif;margin-left:100px}.grey-zone .right{float:right;height:100%;width:50%}.grey-zone .right .block{height:80%;width:80%;margin-left:100px;margin-top:60px}.grey-zone .right .block .box1{height:100%;width:100%}.grey-zone .right .block .box1 img{width:100%}.yellow-zone{height:70vh;width:100%;background-color:#fff554;border-radius:10px;margin-bottom:200px}.yellow-zone .left{width:50%;float:left}.yellow-zone .left h1{font-size:3rem;font-weight:600;width:90%;font-family:'Koh Santepheap', cursive;margin-bottom:40px;margin-top:150px;margin-left:100px}.yellow-zone .left p{font-family:'Poppins', sans-serif;font-size:16px;font-weight:300;margin-left:100px;margin-bottom:30px;line-height:1.4;letter-spacing:1.3px}.yellow-zone .left a{font-size:18px;color:black;font-weight:500;text-decoration:none;font-family:'Poppins', sans-serif;margin-left:100px}.yellow-zone .right{width:50%;float:right}.yellow-zone .right .imgblock{width:100%;height:100%}.yellow-zone .right .imgblock img{width:100%;border-top-right-radius:10px;border-bottom-right-radius:10px}.card-zone{height:60vh;width:100%;margin-bottom:100px}.card-zone .card-block{height:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row}.card-zone .card-block .card1{height:80%;width:30%;margin:0 50px;border-radius:10px;box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);-webkit-box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);-moz-box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);transition:all .2s ease-in-out}.card-zone .card-block .card1 .top{height:60%;width:100%}.card-zone .card-block .card1 .top img{border-top-right-radius:10px;border-top-left-radius:10px;height:100%;width:100%}.card-zone .card-block .card1 .info{height:40%;width:100%}.card-zone .card-block .card1 .info h1{font-size:30px;margin:15px 20px;font-family:'Koh Santepheap', cursive}.card-zone .card-block .card1 .info p{font-family:'Poppins', sans-serif;font-size:14px;margin:0 20px}.card-zone .card-block .card1:hover{transform:scale(1.1);box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75);-webkit-box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75);-moz-box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75)}.card-zone .card-block .card2{height:80%;width:30%;margin:0 50px;border-radius:10px;box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);-webkit-box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);-moz-box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);transition:all .2s ease-in-out}.card-zone .card-block .card2 .top{height:60%;width:100%}.card-zone .card-block .card2 .top img{border-top-right-radius:10px;border-top-left-radius:10px;height:100%;width:100%}.card-zone .card-block .card2 .info{height:40%;width:100%}.card-zone .card-block .card2 .info h1{font-size:30px;margin:15px 20px;font-family:'Koh Santepheap', cursive}.card-zone .card-block .card2 .info p{font-family:'Poppins', sans-serif;font-size:14px;margin:0 20px}.card-zone .card-block .card2:hover{transform:scale(1.1);box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75);-webkit-box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75);-moz-box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75)}.card-zone .card-block .card3{height:80%;width:30%;margin:0 50px;border-radius:10px;box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);-webkit-box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);-moz-box-shadow:2px 2px 9px -3px rgba(0,0,0,0.75);transition:all .2s ease-in-out}.card-zone .card-block .card3 .top{height:60%;width:100%}.card-zone .card-block .card3 .top img{border-top-right-radius:10px;border-top-left-radius:10px;height:100%;width:100%}.card-zone .card-block .card3 .info{height:40%;width:100%}.card-zone .card-block .card3 .info h1{font-size:26px;margin:15px 20px;font-family:'Koh Santepheap', cursive}.card-zone .card-block .card3 .info p{font-family:'Poppins', sans-serif;font-size:14px;margin:0 20px}.card-zone .card-block .card3:hover{transform:scale(1.1);box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75);-webkit-box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75);-moz-box-shadow:2px 2px 9px 3px rgba(0,0,0,0.75)}.sub-footer{height:50vh;width:100%;margin-bottom:50px}.sub-footer .text-block{height:100%;width:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column}.sub-footer .text-block h1{font-size:2.8rem;width:50%;font-family:'Koh Santepheap', cursive;font-weight:700;text-align:center;margin-bottom:25px}.sub-footer .text-block .email-signup{width:50%;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;text-align:center;-ms-flex-direction:row;flex-direction:row;margin-bottom:30px}.sub-footer .text-block .email-signup input[type=text]{height:45px;width:50%;border:2px solid black;border-radius:5px}.sub-footer .text-block .email-signup button{background:#000;width:150px;color:white;font-family:'Poppins', sans-serif;border-left:none;border-top:none;border-bottom:none;border-top-right-radius:5px;border-bottom-right-radius:5px;margin-left:-10px}.sub-footer .text-block .checkbox{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;font-family:'Poppins', sans-serif}.sub-footer .text-block .checkbox h5{padding:0 15px;font-weight:300;font-size:20px}.footer{width:100%}.footer .col-box{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:row;flex-direction:row;font-family:'Poppins', sans-serif;padding:30px 0}.footer .col-box .col1{margin-top:20px;-ms-flex-positive:1;flex-grow:1;-ms-flex-item-align:start;align-self:flex-start;width:20%}.footer .col-box .col2{margin-top:50px;width:20%;-ms-flex-positive:1;flex-grow:1}.footer .col-box .col2 .title{font-size:20px;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.footer .col-box .col2 .tag{font-size:14px;color:#757575;padding:10px 0}.footer .col-box .col3{margin-top:20px;width:20%;-ms-flex-positive:1;flex-grow:1}.footer .col-box .col3 .title{font-size:20px;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.footer .col-box .col3 .tag{font-size:14px;color:#757575;padding:10px 0}.footer .col-box .col4{width:20%;-ms-flex-positive:1;flex-grow:1;margin-bottom:50px}.footer .col-box .col4 .title{font-size:20px;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.footer .col-box .col4 .tag{font-size:14px;color:#757575;padding:10px 0}.footer .col-box .col5{width:30%;-ms-flex-positive:1;flex-grow:1;margin-bottom:50px}.footer .col-box .col5 .title{font-size:20px;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}.footer .col-box .col5 .tag{font-size:16px;color:#757575;padding:10px 0}.footer .col-box .col5 p{color:#757575;font-size:12px;margin-top:10px}
+    </style>
+
+    <style>
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        flex-grow: 1;
+    }
+    .linkbar {
+        display: none;
+    }
+    .linkbar.show {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        margin-left: 0;
+        top: 100px;
+        background: #fff;
+        left: 85%;
+        text-align: center;
+        position: absolute;
+    }
+    .linkbar.show a{
+        padding: 5px 20px 0 0;
+    }
+    #hamburger {
+        display: block;
+        
+    }
+    .login {
+        display: none;
+    }
+    #cards .card-block .card1 .text-block p {
+        font-size: 15px;
+    }
+    #cards .card-block .card2 .text-block p {
+        font-size: 15px;
+    }
+    #cards .card-block .card3 .text-block p {
+        font-size: 15px;
+    }
+    #brands .logo-block {
+        width: 90%;
+    }
+    #gif1 {
+        height: 80vh;
+    }
+    #gif1 .right .text-block h1 {
+        font-size: 1.8rem;   
+    }
+    #gif2 {
+        height: 80vh;
+    }
+    #gif2 .left .text-block h1 {
+        font-size: 1.8rem;
+    }
+    #grey-zone {
+        height: 54vh;
+    }
+    #grey-zone .left h1 {
+        margin-top: 90px;
+    }
+    #yellow-zone {
+        height: 48vh;
+    }
+    #yellow-zone .left h1 {
+        margin-top: 90px;
+        margin-left: 40px;
+        font-size: 1.8rem;
+    }
+    #yellow-zone .left p {
+        margin-left: 40px;
+        font-size: 13px;
+        width: 90%;
+    }
+    #yellow-zone .left a {
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    #yellow-zone .right .imgblock img {
+        height: 393px;
+    }
+    #card-zone .card-block .card1 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card2 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card3 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #sub-footer .text-block h1 {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        flex-grow: 1;
+    }
+    .linkbar {
+        display: none;
+    }
+    .linkbar.show {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        margin-left: 0;
+        top: 100px;
+        left: 75%;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+    }
+    .linkbar.show a{
+        padding: 5px 20px 0 0;
+    }
+    #hamburger {
+        display: block;
+        
+    }
+    .login {
+        display: none;
+    }
+    #cards .card-block .card1 .text-block p {
+        font-size: 12px;
+    }
+    #cards .card-block .card1 .text-block h1 {
+        font-size: 24px;
+    } 
+    #cards .card-block .card2 .text-block p {
+        font-size: 12px;
+    }
+    #cards .card-block .card2 .text-block h1 {
+        font-size: 24px;
+    } 
+    #cards .card-block .card3 .text-block p {
+        font-size: 12px;
+    }
+    #cards .card-block .card3 .text-block h1 {
+        font-size: 24px;
+    } 
+    #brands .logo-block {
+        width: 90%;
+    }
+    #brands .logo-block img {
+        width: 100px;
+    }
+    #gif1 {
+        height: 80vh;
+    }
+    #gif1 .right .text-block h1 {
+        font-size: 1.2rem;   
+    }
+    #gif1 .right .text-block h3 {
+        font-size: 14px;
+    }
+    #gif1 .right .text-block p {
+        font-size: 12px;
+    }
+    #gif2 {
+        height: 80vh;
+    }
+    #gif2 .left .text-block h1 {
+        font-size: 1.2rem;
+    }
+    #gif2 .left .text-block h3 {
+        font-size: 14px;
+    }
+    #gif2 .left .text-block p {
+        font-size: 12px;
+    }
+    #grey-zone {
+        height: 54vh;
+    }
+    #grey-zone .left h1 {
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 2rem;
+    }
+    #grey-zone .left p {
+        margin-left: 30px;
+    }
+    #grey-zone .left a {
+        margin-left: 30px;
+    }
+    #grey-zone .right .block {
+        margin-left: 60px;
+    }
+    #yellow-zone {
+        height: 48vh;
+    }
+    #yellow-zone .left h1 {
+        margin-top: 50px;
+        margin-left: 40px;
+        font-size: 1.8rem;
+    }
+    #yellow-zone .left p {
+        margin-left: 40px;
+        font-size: 12px;
+        width: 80%;
+    }
+    #yellow-zone .left a {
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    #yellow-zone .right .imgblock img {
+        height: 393px;
+    }
+    #card-zone .card-block .card1 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card1 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card1 .info p {
+        font-size: 12px;
+    }
+    #card-zone .card-block .card2 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card2 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card2 .info p {
+        font-size: 12px;
+    }
+    #card-zone .card-block .card3 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card3 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card3 .info p {
+        font-size: 12px;
+    }
+    #sub-footer .text-block h1 {
+        width: 55%;
+    }
+    #footer .col-box .col2 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col2 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col3 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col3 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col4 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col4 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col5 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col5 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col5 p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #container {
+        width: 100%;
+        margin-left: 25px;
+    }
+    .logo {
+        flex-grow: 1;
+    }
+    .linkbar {
+        display: none;
+    }
+    .linkbar.show {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        margin-left: 0;
+        top: 100px;
+        left: 75%;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+    }
+    .linkbar.show a{
+        padding: 5px 20px 0 0;
+    }
+    #hamburger {
+        display: block;
+    }
+    .login {
+        display: none;
+    }
+    #header .text-block h1 {
+        font-size: 2rem;
+        width: 90%;
+    }
+    #header .text-block p {
+        width: 70%;
+        font-size: 15px;
+    }
+    #header .text-block .btn-lay {
+        display: flex;
+    }
+    #cards .card-block .card1 {
+        height: 330px;
+        width: 35%;
+        margin: 0 5px;
+    }
+    #cards .card-block .card1 .text-block i {
+        font-size: 1.5rem;
+    }
+    #cards .card-block .card1 .text-block p {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    #cards .card-block .card1 .text-block h1 {
+        font-size: 18px;
+    } 
+    #cards .card-block .card2 {
+        height: 330px;
+        width: 35%;
+    }
+    #cards .card-block .card2 .text-block i {
+        font-size: 1.5rem;
+    }
+    #cards .card-block .card2 .text-block p {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    #cards .card-block .card2 .text-block h1 {
+        font-size: 18px;
+    } 
+    #cards .card-block .card3 {
+        height: 330px;
+        width: 35%;
+    }
+    #cards .card-block .card3 .text-block i {
+        font-size: 1.5rem;
+    }
+    #cards .card-block .card3 .text-block p {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    #cards .card-block .card3 .text-block h1 {
+        font-size: 18px;
+    } 
+    #brands .text-block h1 {
+        font-size: 1.8rem;
+    }
+    #brands .text-block p {
+        font-size: 15px;
+        width: 60%;
+    }
+    #brands .logo-block {
+        width: 90%;
+    }
+    #brands .logo-block img {
+        width: 60px;
+    }
+    #gif1 {
+        height: 80vh;
+    }
+    #gif1 .right .text-block h1 {
+        font-size: 16px;   
+        margin-bottom: 20px;
+    }
+    #gif1 .right .text-block h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    #gif1 .right .text-block p {
+        font-size: 8px;
+    }
+    #gif1 .right .text-block a {
+        font-size: 9px;
+    }
+    #gif2 {
+        height: 80vh;
+    }
+    #gif2 .left .text-block h1 {
+        font-size: 16px;   
+        margin-bottom: 20px;
+    }
+    #gif2 .left .text-block h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    #gif2 .left .text-block p {
+        font-size: 8px;
+    }
+    #gif2 .right .text-block a {
+        font-size: 9px;
+    }
+    #grey-zone {
+        height: 34vh;
+    }
+    #grey-zone .left h1 {
+        margin-top: 40px;
+        margin-left: 18px;
+        font-size: 1.2rem;
+    }
+    #grey-zone .left p {
+        font-size: 11px;
+        margin-left: 18px;
+    }
+    #grey-zone .left a {
+        margin-left: 18px;
+        font-size: 12px;
+    }
+    #grey-zone .right .block {
+        margin-left: 30px;
+    }
+    #yellow-zone {
+        height: 42vh;
+    }
+    #yellow-zone .left h1 {
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    #yellow-zone .left p {
+        margin-left: 10px;
+        font-size: 8px;
+        width: 80%;
+    }
+    #yellow-zone .left a {
+        margin-left: 10px;
+        font-size: 9px;
+    }
+    #yellow-zone .right .imgblock img {
+        height: 308px;
+    }
+    #card-zone {
+        display: none;
+    }
+    #card-zone .card-block .card1 {
+        height: 65%;
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card1 .info h1 {
+        font-size: 15px;
+    }
+    #card-zone .card-block .card1 .info p {
+        font-size: 12px;
+        margin: 10px 20px;
+    }
+    #card-zone .card-block .card2 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card2 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card2 .info p {
+        font-size: 12px;
+    }
+    #card-zone .card-block .card3 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card3 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card3 .info p {
+        font-size: 12px;
+    }
+    #sub-footer .text-block h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+    #sub-footer .text-block .email-signup {
+        width: 100%;
+    }
+    #sub-footer .text-block .checkbox h5 {
+        font-size: 12px;
+    }
+    #footer .col-box .col2 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col2 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col3 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col3 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col4 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col4 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col5 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col5 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col5 p {
+        font-size: 4px;
+    }
+}
+    </style>
+
   </head>
   <body>
   <div class="container" id="container">
@@ -231,6 +755,17 @@
       <hr>
     </section>
   </div>
-    <script src="/js/dist/main.js"></script>
+
+
+
+    <script>
+      const hamburger = document.getElementById('hamburger')
+      const navlist = document.getElementById('linkbar')
+
+      hamburger.addEventListener('click', () => {
+        navlist.classList.toggle('show')
+      })
+    </script>
+
   </body>
 </html>
