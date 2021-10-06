@@ -1,0 +1,516 @@
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        flex-grow: 1;
+    }
+    .linkbar {
+        display: none;
+    }
+    .linkbar.show {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        margin-left: 0;
+        top: 100px;
+        background: #fff;
+        left: 85%;
+        text-align: center;
+        position: absolute;
+    }
+    .linkbar.show a{
+        padding: 5px 20px 0 0;
+    }
+    #hamburger {
+        display: block;
+        
+    }
+    .login {
+        display: none;
+    }
+    #cards .card-block .card1 .text-block p {
+        font-size: 15px;
+    }
+    #cards .card-block .card2 .text-block p {
+        font-size: 15px;
+    }
+    #cards .card-block .card3 .text-block p {
+        font-size: 15px;
+    }
+    #brands .logo-block {
+        width: 90%;
+    }
+    #gif1 {
+        height: 80vh;
+    }
+    #gif1 .right .text-block h1 {
+        font-size: 1.8rem;   
+    }
+    #gif2 {
+        height: 80vh;
+    }
+    #gif2 .left .text-block h1 {
+        font-size: 1.8rem;
+    }
+    #grey-zone {
+        height: 54vh;
+    }
+    #grey-zone .left h1 {
+        margin-top: 90px;
+    }
+    #yellow-zone {
+        height: 48vh;
+    }
+    #yellow-zone .left h1 {
+        margin-top: 90px;
+        margin-left: 40px;
+        font-size: 1.8rem;
+    }
+    #yellow-zone .left p {
+        margin-left: 40px;
+        font-size: 13px;
+        width: 90%;
+    }
+    #yellow-zone .left a {
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    #yellow-zone .right .imgblock img {
+        height: 393px;
+    }
+    #card-zone .card-block .card1 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card2 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card3 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #sub-footer .text-block h1 {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        flex-grow: 1;
+    }
+    .linkbar {
+        display: none;
+    }
+    .linkbar.show {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        margin-left: 0;
+        top: 100px;
+        left: 75%;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+    }
+    .linkbar.show a{
+        padding: 5px 20px 0 0;
+    }
+    #hamburger {
+        display: block;
+        
+    }
+    .login {
+        display: none;
+    }
+    #cards .card-block .card1 .text-block p {
+        font-size: 12px;
+    }
+    #cards .card-block .card1 .text-block h1 {
+        font-size: 24px;
+    } 
+    #cards .card-block .card2 .text-block p {
+        font-size: 12px;
+    }
+    #cards .card-block .card2 .text-block h1 {
+        font-size: 24px;
+    } 
+    #cards .card-block .card3 .text-block p {
+        font-size: 12px;
+    }
+    #cards .card-block .card3 .text-block h1 {
+        font-size: 24px;
+    } 
+    #brands .logo-block {
+        width: 90%;
+    }
+    #brands .logo-block img {
+        width: 100px;
+    }
+    #gif1 {
+        height: 80vh;
+    }
+    #gif1 .right .text-block h1 {
+        font-size: 1.2rem;   
+    }
+    #gif1 .right .text-block h3 {
+        font-size: 14px;
+    }
+    #gif1 .right .text-block p {
+        font-size: 12px;
+    }
+    #gif2 {
+        height: 80vh;
+    }
+    #gif2 .left .text-block h1 {
+        font-size: 1.2rem;
+    }
+    #gif2 .left .text-block h3 {
+        font-size: 14px;
+    }
+    #gif2 .left .text-block p {
+        font-size: 12px;
+    }
+    #grey-zone {
+        height: 54vh;
+    }
+    #grey-zone .left h1 {
+        margin-top: 40px;
+        margin-left: 30px;
+        font-size: 2rem;
+    }
+    #grey-zone .left p {
+        margin-left: 30px;
+    }
+    #grey-zone .left a {
+        margin-left: 30px;
+    }
+    #grey-zone .right .block {
+        margin-left: 60px;
+    }
+    #yellow-zone {
+        height: 48vh;
+    }
+    #yellow-zone .left h1 {
+        margin-top: 50px;
+        margin-left: 40px;
+        font-size: 1.8rem;
+    }
+    #yellow-zone .left p {
+        margin-left: 40px;
+        font-size: 12px;
+        width: 80%;
+    }
+    #yellow-zone .left a {
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    #yellow-zone .right .imgblock img {
+        height: 393px;
+    }
+    #card-zone .card-block .card1 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card1 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card1 .info p {
+        font-size: 12px;
+    }
+    #card-zone .card-block .card2 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card2 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card2 .info p {
+        font-size: 12px;
+    }
+    #card-zone .card-block .card3 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card3 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card3 .info p {
+        font-size: 12px;
+    }
+    #sub-footer .text-block h1 {
+        width: 55%;
+    }
+    #footer .col-box .col2 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col2 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col3 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col3 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col4 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col4 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col5 .title {
+        font-size: 16px;
+    }
+    #footer .col-box .col5 .tag {
+        font-size: 12px;
+    }
+    #footer .col-box .col5 p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #container {
+        width: 100%;
+        margin-left: 25px;
+    }
+    .logo {
+        flex-grow: 1;
+    }
+    .linkbar {
+        display: none;
+    }
+    .linkbar.show {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        margin-left: 0;
+        top: 100px;
+        left: 75%;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+    }
+    .linkbar.show a{
+        padding: 5px 20px 0 0;
+    }
+    #hamburger {
+        display: block;
+    }
+    .login {
+        display: none;
+    }
+    #header .text-block h1 {
+        font-size: 2rem;
+        width: 90%;
+    }
+    #header .text-block p {
+        width: 70%;
+        font-size: 15px;
+    }
+    #header .text-block .btn-lay {
+        display: flex;
+    }
+    #cards .card-block .card1 {
+        height: 330px;
+        width: 35%;
+        margin: 0 5px;
+    }
+    #cards .card-block .card1 .text-block i {
+        font-size: 1.5rem;
+    }
+    #cards .card-block .card1 .text-block p {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    #cards .card-block .card1 .text-block h1 {
+        font-size: 18px;
+    } 
+    #cards .card-block .card2 {
+        height: 330px;
+        width: 35%;
+    }
+    #cards .card-block .card2 .text-block i {
+        font-size: 1.5rem;
+    }
+    #cards .card-block .card2 .text-block p {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    #cards .card-block .card2 .text-block h1 {
+        font-size: 18px;
+    } 
+    #cards .card-block .card3 {
+        height: 330px;
+        width: 35%;
+    }
+    #cards .card-block .card3 .text-block i {
+        font-size: 1.5rem;
+    }
+    #cards .card-block .card3 .text-block p {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    #cards .card-block .card3 .text-block h1 {
+        font-size: 18px;
+    } 
+    #brands .text-block h1 {
+        font-size: 1.8rem;
+    }
+    #brands .text-block p {
+        font-size: 15px;
+        width: 60%;
+    }
+    #brands .logo-block {
+        width: 90%;
+    }
+    #brands .logo-block img {
+        width: 60px;
+    }
+    #gif1 {
+        height: 80vh;
+    }
+    #gif1 .right .text-block h1 {
+        font-size: 16px;   
+        margin-bottom: 20px;
+    }
+    #gif1 .right .text-block h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    #gif1 .right .text-block p {
+        font-size: 8px;
+    }
+    #gif1 .right .text-block a {
+        font-size: 9px;
+    }
+    #gif2 {
+        height: 80vh;
+    }
+    #gif2 .left .text-block h1 {
+        font-size: 16px;   
+        margin-bottom: 20px;
+    }
+    #gif2 .left .text-block h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    #gif2 .left .text-block p {
+        font-size: 8px;
+    }
+    #gif2 .right .text-block a {
+        font-size: 9px;
+    }
+    #grey-zone {
+        height: 34vh;
+    }
+    #grey-zone .left h1 {
+        margin-top: 40px;
+        margin-left: 18px;
+        font-size: 1.2rem;
+    }
+    #grey-zone .left p {
+        font-size: 11px;
+        margin-left: 18px;
+    }
+    #grey-zone .left a {
+        margin-left: 18px;
+        font-size: 12px;
+    }
+    #grey-zone .right .block {
+        margin-left: 30px;
+    }
+    #yellow-zone {
+        height: 42vh;
+    }
+    #yellow-zone .left h1 {
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    #yellow-zone .left p {
+        margin-left: 10px;
+        font-size: 8px;
+        width: 80%;
+    }
+    #yellow-zone .left a {
+        margin-left: 10px;
+        font-size: 9px;
+    }
+    #yellow-zone .right .imgblock img {
+        height: 308px;
+    }
+    #card-zone {
+        display: none;
+    }
+    #card-zone .card-block .card1 {
+        height: 65%;
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card1 .info h1 {
+        font-size: 15px;
+    }
+    #card-zone .card-block .card1 .info p {
+        font-size: 12px;
+        margin: 10px 20px;
+    }
+    #card-zone .card-block .card2 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card2 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card2 .info p {
+        font-size: 12px;
+    }
+    #card-zone .card-block .card3 {
+        width: 35%;
+        margin: 0 10px;
+    }
+    #card-zone .card-block .card3 .info h1 {
+        font-size: 24px;
+    }
+    #card-zone .card-block .card3 .info p {
+        font-size: 12px;
+    }
+    #sub-footer .text-block h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+    #sub-footer .text-block .email-signup {
+        width: 100%;
+    }
+    #sub-footer .text-block .checkbox h5 {
+        font-size: 12px;
+    }
+    #footer .col-box .col2 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col2 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col3 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col3 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col4 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col4 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col5 .title {
+        font-size: 11px;
+    }
+    #footer .col-box .col5 .tag {
+        font-size: 6px;
+    }
+    #footer .col-box .col5 p {
+        font-size: 4px;
+    }
+}
